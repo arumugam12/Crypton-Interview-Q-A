@@ -1,0 +1,55 @@
+.order-stat {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 0;
+    width: 150px;
+
+    .icon-value {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+
+        .icon {
+            width: 26px;
+            height: 26px;
+            margin-left: 10px;
+        }
+
+        .value {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+    }
+
+    .label-change {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 25%;
+        margin-top: 8px;
+        margin-bottom: 20px;
+
+        .label {
+            font-size: 1rem;
+            color: #333;
+            font-style: bold;
+        }
+
+        .change {
+            font-size: 1rem;
+
+            &.positive {
+                color: green;
+            }
+
+            &.negative {
+                color: red;
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "revenue": {
+    "icon": "./icon/revenue.svg",
+    "value": "$2,047",
+    "change": "-10%"
+  },
+  "orders": {
+    "icon": "/icon/orders.svg",
+    "value": 356,
+    "change": "+20%"
+  },
+  "dineIn": {
+    "icon": "/icon/dining.png",
+    "value": 220,
+    "change": "+10%"
+  },
+  "takeAway": {
+    "icon": "/icon/takeaway.png",
+    "value": 135,
+    "change": "-5%"
+  }
+  }
+  

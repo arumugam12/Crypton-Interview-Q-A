@@ -1,0 +1,13 @@
+@import '../components/OrderStat.scss';
+@import '../components/WidgetOrderStats.scss';
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: bold;
+  background-color: #f4f4f4;
+}
